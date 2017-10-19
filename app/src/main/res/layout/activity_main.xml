@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.storepathdemo.MainActivity">
+
+    <ScrollView
+        android:paddingBottom="50dp"
+        android:scrollbars="none"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_cacheDir"
+                android:layout_marginTop="60dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cacheDir路径"
+                android:textColor="@color/colorPrimary"
+                android:textSize="17sp" />
+            <TextView
+                android:id="@+id/tv_filesDir"
+                android:layout_marginTop="60dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="filesDir路径"
+                android:textColor="@color/colorPrimary"
+                android:textSize="17sp" />
+            <TextView
+                android:id="@+id/tv_externalCacheDir"
+                android:layout_marginTop="60dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="externalCacheDir路径"
+                android:textColor="@color/colorPrimary"
+                android:textSize="17sp" />
+            <!--<TextView-->
+                <!--android:id="@+id/tv_externalFilesDir"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="externalFilesDir路径"-->
+                <!--android:textColor="@color/colorPrimary"-->
+                <!--android:textSize="17sp" />-->
+            <TextView
+                android:id="@+id/tv_externalStorageDirectory"
+                android:layout_marginTop="60dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="externalStorageDirectory路径"
+                android:textColor="@color/colorPrimary"
+                android:textSize="17sp" />
+            <TextView
+                android:id="@+id/tv_externalStoragePublicDirectory"
+                android:layout_marginTop="60dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="externalStoragePublicDirectory路径"
+                android:textColor="@color/colorPrimary"
+                android:textSize="17sp" />
+        <TextView
+            android:id="@+id/tv_ExternalFilesDir"
+            android:layout_marginTop="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ExternalFilesDir路径"
+            android:textColor="@color/colorPrimary"
+            android:textSize="17sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
